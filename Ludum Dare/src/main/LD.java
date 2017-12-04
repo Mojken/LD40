@@ -75,16 +75,16 @@ public class LD {
 			@Override
 			public void keyReleased(KeyEvent e) {
 				switch (e.getKeyCode()) {
-					case KeyEvent.VK_COMMA:
+					case KeyEvent.VK_W:
 						p.setMomentum(p.getMomentum().sub(new Vector(0, -1)));
 					break;
 					case KeyEvent.VK_A:
 						p.setMomentum(p.getMomentum().sub(new Vector(-1, 0)));
 					break;
-					case KeyEvent.VK_O:
+					case KeyEvent.VK_S:
 						p.setMomentum(p.getMomentum().sub(new Vector(0, 1)));
 					break;
-					case KeyEvent.VK_E:
+					case KeyEvent.VK_D:
 						p.setMomentum(p.getMomentum().sub(new Vector(1, 0)));
 					break;
 				}
